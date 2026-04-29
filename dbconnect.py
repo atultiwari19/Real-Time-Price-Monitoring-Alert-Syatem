@@ -9,7 +9,6 @@ db = sql.connect(
     password = "Atul@1234",
     use_pure = True
 )
-
 cr = db.cursor()
 cr.execute("show databases")
 for i in cr:
