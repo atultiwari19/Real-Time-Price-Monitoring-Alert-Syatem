@@ -7,7 +7,7 @@ db = sql.connect(
     host = "localhost",
     user = "root",
     password = "Atul@1234",
-    use_pure = True
+    use_pure = True 
 )
 cr = db.cursor()
 cr.execute("show databases")
